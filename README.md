@@ -1,2 +1,3 @@
 # SillyPiCalculator
-Pi Calculator from https://youtu.be/HEfHFsfGXjs
+A Pi Calculator
+ref. 3b1b https://youtu.be/HEfHFsfGXjs
