@@ -3,6 +3,7 @@
 #define USE_MACRO_FUNCTIONS
 #define SHOW_ARCCOS_V2_
 #define POWER 16
+#define BASE 10
 
 //Main:
 #include <iostream>
@@ -10,7 +11,7 @@
 #include <cmath>
 #define LD long double
 #define M1 1
-#define M2 pow(10,POWER)
+#define M2 pow(BASE,POWER)
 #ifdef USE_MACRO_FUNCTIONS
 	#define GetV1(X,Y) (T11*(X)+T12*(Y))
 	#define GetV2(X,Y) (T21*(Y)+T22*(X))
@@ -55,6 +56,6 @@ int main(){
 		count++;
 		v11 = -v12;
 	}
-	cout<<setbase(10)<<count<<" times\n";
+	cout<<setbase(BASE)<<count<<" times\n";
 	return 0;
 }
