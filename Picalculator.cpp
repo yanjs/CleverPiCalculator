@@ -14,8 +14,8 @@ int main(int argc, const char* argv[]) {
     // change *digit* and *base* to see different results!
     // digit: number of sig-fig of pi
     // base: can be 8, 10 or 16
-    constexpr auto digit = 8;
-    constexpr auto base = 16;
+    constexpr auto digit = 10;
+    constexpr auto base = 10;
 
     constexpr auto power = 2 * (digit - 1);
     constexpr ld m1 = 1;
@@ -46,7 +46,7 @@ int main(int argc, const char* argv[]) {
         v1 = -temp_v1;
         count++;
     }
-    cout << "The collision happens" << setbase(base) << count << " times" << endl;
+    cout << "The collision happens " << setbase(base) << count << " times" << endl;
 
     return 0;
 }
