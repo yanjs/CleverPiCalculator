@@ -10,7 +10,7 @@ using std::setbase;
 using std::acos;
 using std::pow;
 
-int main() {
+int main(int argc, const char* argv[]) {
     // change *digit* and *base* to see different results!
     // digit: number of sig-fig of pi
     // base: can be 8, 10 or 16
